@@ -23,6 +23,9 @@ namespace WarGame
         public MainWindow()
         {
             InitializeComponent();
+
+            playerCard = new BitmapImage("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Playing_card_club_A.svg/40px-Playing_card_club_A.svg.png");
+
         }
     }
 }
