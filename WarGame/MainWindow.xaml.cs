@@ -24,7 +24,12 @@ namespace WarGame
         {
             InitializeComponent();
 
-            playerCard = new BitmapImage("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Playing_card_club_A.svg/40px-Playing_card_club_A.svg.png");
+            Deck deck = new Deck();
+
+            cardList.Items.Add(deck);
+
+            Uri resourceUri = new Uri("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Playing_card_club_A.svg/800px-Playing_card_club_A.svg.png");
+            playerCard.Source = new BitmapImage(resourceUri);
 
         }
     }

@@ -1,0 +1,14 @@
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\bin\Debug\WarGame.exe.config
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\bin\Debug\WarGame.exe
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\bin\Debug\WarGame.pdb
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.csprojAssemblyReference.cache
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\MainWindow.g.cs
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\App.g.cs
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame_MarkupCompile.cache
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame_MarkupCompile.lref
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\MainWindow.baml
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.g.resources
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.Properties.Resources.resources
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.csproj.GenerateResource.cache
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.exe
+C:\Users\tyler\Source\Repos\tylerluckey3013002\GroupProject_War\WarGame\obj\Debug\WarGame.pdb
