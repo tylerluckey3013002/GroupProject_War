@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{780180F6-0FFA-4EF9-A1A9-ECA233C59B8D}</ProjectGuid>
+    <ProjectGuid>{3DDCCFEB-F1A7-4CF6-8639-A418DA140247}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WarGame</RootNamespace>
     <AssemblyName>WarGame</AssemblyName>
