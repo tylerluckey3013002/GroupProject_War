@@ -8,12 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Gray">
         <Image x:Name="playerCard" HorizontalAlignment="Left" Height="185" Margin="69,70,0,0" VerticalAlignment="Top" Width="123"/>
-        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Margin="69,16,601.6,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" Height="29" Width="123" FontSize="24"/>
+        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Margin="69,36,601.6,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" Height="29" Width="123" FontSize="24"/>
         <Image x:Name="opponentCard" HorizontalAlignment="Left" Height="185" Margin="579,70,0,0" VerticalAlignment="Top" Width="123"/>
-        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Margin="579,16,91.6,0" TextWrapping="Wrap" Text="Opponent" VerticalAlignment="Top" Height="29" Width="123" FontSize="24"/>
-        <Button Content="I Delare War!" HorizontalAlignment="Left" Height="63" Margin="245,302,0,0" VerticalAlignment="Top" Width="307" FontSize="36" Click="Button_Click"/>
-        <TextBlock x:Name="playerDesc" TextAlignment="Center" Margin="69,277,601.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="123"/>
-        <TextBlock x:Name="oppDesc" TextAlignment="Center" Margin="579,277,91.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="123"/>
+        <TextBlock TextAlignment="Center" HorizontalAlignment="Center" Margin="579,36,91.6,0" TextWrapping="Wrap" Text="Opponent" VerticalAlignment="Top" Height="29" Width="123" FontSize="24"/>
+        <Button Content="I Delare War!" HorizontalAlignment="Left" Height="63" Margin="240,303,0,0" VerticalAlignment="Top" Width="307" FontSize="36" Click="Button_Click"/>
+        <TextBlock x:Name="playerDesc" TextAlignment="Center" Margin="69,255,601.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="123" FontSize="16" Background="#FFA60000"/>
+        <TextBlock x:Name="oppDesc" TextAlignment="Center" Margin="579,255,91.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="123" FontSize="16" Background="#FFDDDDDD"/>
+        <TextBlock x:Name="outcome" TextAlignment="Center" Margin="197,122,219.6,0" TextWrapping="Wrap" Text="VS" VerticalAlignment="Top" Height="92" FontSize="24"/>
 
     </Grid>
 </Window>

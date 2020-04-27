@@ -79,6 +79,24 @@ namespace WarGame
 
             playerDesc.Text = player[random].ToString();
             oppDesc.Text = opponent[random2].ToString();
+
+            int pNum = Convert.ToInt32(player[random].id.Remove(0,1));
+            int oNum = Convert.ToInt32(opponent[random2].id.Remove(0,1));
+
+            if (pNum > oNum)
+            {
+                outcome.Text = player[random] + " Beats " + opponent[random2];
+            }
+
+            else if (pNum < oNum)
+            {
+                outcome.Text = player[random] + " Loses to " + opponent[random2];
+            }
+
+            else
+            {
+                outcome.Text = "WAR!!!";
+            }
         }
     }
 }
