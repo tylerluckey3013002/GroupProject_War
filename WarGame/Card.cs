@@ -9,7 +9,7 @@ namespace WarGame
 {
     class Card
     {
-        public int id { get; set; }
+        public string id { get; set; }
         public string suit { get; set; }
         public string rank { get; set;}
         public string url { get; set; }
@@ -17,14 +17,14 @@ namespace WarGame
 
         public Card()
         {
-            this.id = 0;
+            this.id = string.Empty;
             this.suit = string.Empty;
             this.rank = string.Empty;
             this.url = string.Empty;
         }
         public Card(string id, string suit, string rank, string url)
         {
-            this.id = Convert.ToInt32(id);
+            this.id = id;
             this.suit = suit;
             this.rank = rank;
             this.url = url;
@@ -32,7 +32,7 @@ namespace WarGame
 
         public override string ToString()
         {
-            return "{rank} of {suit}s";
+            return $"{rank} of {suit}s";
         }
     }
 }
