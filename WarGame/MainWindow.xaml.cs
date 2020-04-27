@@ -35,6 +35,10 @@ namespace WarGame
             List<Card> deck = new List<Card>();
             Random rnd = new Random();
             int random = rnd.Next(deck.Count);
+            int random2 = 0;
+            int oNum = 0; ;
+            int pNum = 0;
+            int count = 0;
 
             //Creating List for each players cards to be stored in.
             List<Card> player = new List<Card>();
@@ -65,38 +69,45 @@ namespace WarGame
                 deck.RemoveAt(random);
             }
 
-            rnd = new Random();
-            random = rnd.Next(player.Count);
-            int random2 = rnd.Next(opponent.Count);
 
-            string playerUrl = player[random].url;
-            string oppUrl = opponent[random2].url;
-            //Display image of Players Card
-            Uri playerUri = new Uri(playerUrl);
-            Uri oppUri = new Uri(oppUrl);
-            playerCard.Source = new BitmapImage(playerUri);
-            opponentCard.Source = new BitmapImage(oppUri);
 
-            playerDesc.Text = player[random].ToString();
-            oppDesc.Text = opponent[random2].ToString();
-
-            int pNum = Convert.ToInt32(player[random].id.Remove(0,1));
-            int oNum = Convert.ToInt32(opponent[random2].id.Remove(0,1));
-
-            if (pNum > oNum)
+            do
             {
-                outcome.Text = player[random] + " Beats " + opponent[random2];
-            }
 
-            else if (pNum < oNum)
-            {
-                outcome.Text = player[random] + " Loses to " + opponent[random2];
-            }
+                rnd = new Random();
+                random = rnd.Next(player.Count);
+                random2 = rnd.Next(opponent.Count);
 
-            else
-            {
-                outcome.Text = "WAR!!!";
-            }
+                string playerUrl = player[random].url;
+                string oppUrl = opponent[random2].url;
+                //Display image of Players Card
+                Uri playerUri = new Uri(playerUrl);
+                Uri oppUri = new Uri(oppUrl);
+                playerCard.Source = new BitmapImage(playerUri);
+                opponentCard.Source = new BitmapImage(oppUri);
+
+                playerDesc.Text = player[random].ToString();
+                oppDesc.Text = opponent[random2].ToString();
+
+                pNum = Convert.ToInt32(player[random].id.Remove(0, 1));
+                oNum = Convert.ToInt32(opponent[random2].id.Remove(0, 1));
+                if (pNum > oNum)
+                {
+                    outcome.Text = player[random] + " Beats " + opponent[random2];
+                }
+
+                else if (pNum < oNum)
+                {
+                    outcome.Text = player[random] + " Loses to " + opponent[random2];
+                }
+
+                else
+                {
+                    outcome.Text = "WAR!!!";
+
+                }
+            } while (pNum == oNum);
+            
         }
     }
 }
